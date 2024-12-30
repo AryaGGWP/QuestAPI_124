@@ -8,10 +8,14 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
+import com.example.pertemuan12.ui.view.mahasiswa.DestinasiDetail
 import com.example.pertemuan12.ui.view.mahasiswa.DestinasiEntry
 import com.example.pertemuan12.ui.view.mahasiswa.DestinasiHome
+import com.example.pertemuan12.ui.view.mahasiswa.DestinasiUpdate
+import com.example.pertemuan12.ui.view.mahasiswa.DetailScreen
 import com.example.pertemuan12.ui.view.mahasiswa.EntryMhsScreen
 import com.example.pertemuan12.ui.view.mahasiswa.HomeScreen
+import com.example.pertemuan12.ui.view.mahasiswa.UpdateScreen
 
 @Composable
 fun PengelolaHalaman(navController: NavHostController = rememberNavController()) {
