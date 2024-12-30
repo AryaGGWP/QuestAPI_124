@@ -1,4 +1,4 @@
-package com.example.pertemuan12
+package com.example.pertemuan12.ui.customwidget
 
 import androidx.compose.foundation.clickable
 import androidx.compose.material.icons.Icons
